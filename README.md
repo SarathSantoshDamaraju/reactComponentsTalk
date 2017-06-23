@@ -8,7 +8,7 @@ Types of Communication flows covered :
     - [x] Instance methods `branch : childToParent__Instance-methods`
        
 - [ ] Child to parent
-    - [x] Call Back `branch : `
+    - [x] Call Back `branch : parentToChild__Callback`
     - [ ] Event Bubbling `branch : `
        
 - [ ] Sibling to sibling  (Via parent Component) `branch : `
