@@ -6,13 +6,18 @@ class App extends Component {
   constructor(){
     super();
     this.state = {
-      show : false
+      data : ''
     }
   }
+  getValue(params){
+    this.setState({
+      data: params
+    });
+    }
   render() {
     return (
       <div className="App">
-      <img src={this.props.url} />
+      {this.state.data !== '' ? <p>{this.state.data}</p> : null}
       </div>
     );
   }

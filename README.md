@@ -1,4 +1,4 @@
-# reactComponentsTalk
+# Ways of Communication Between React Components
 There are 8 types of communication in ReactJs with use of plain JS Concepts. In this document you can find the sample code for all of this types of communication.
 
 Types of Communication flows covered : 
