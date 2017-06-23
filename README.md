@@ -7,7 +7,7 @@ Types of Communication flows covered :
     - [x] Props `branch : master`
     - [ ] Instance methods `branch : `
        
--[ ] Child to parent
+- [ ] Child to parent
     - [ ] Call Back `branch : `
     - [ ] Event Bubbling `branch : `
        
