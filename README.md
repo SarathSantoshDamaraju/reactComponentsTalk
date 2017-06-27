@@ -4,12 +4,12 @@ There are 8 types of communication in ReactJs with use of plain JS or simple Rea
 Types of Communication flows covered : 
 
 - [x] Parent to Child
-    - [x] Props `branch : childToParent__props`
-    - [x] Instance methods `branch : childToParent__Instance-methods`
+    - [x] Props `branch : parentToChild__props`
+    - [x] Instance methods `branch : parentToChild__instanceMethods`
        
-- [ ] Child to parent
-    - [x] Call Back `branch : parentToChild__Callback`
-    - [ ] Event Bubbling `branch : `
+- [x] Child to parent
+    - [x] Call Back `branch : childToParent__Callback`
+    - [x] Event Bubbling `branch : childToParent__eventBubbling`
        
 - [ ] Sibling to sibling  (Via parent Component) `branch : `
        
