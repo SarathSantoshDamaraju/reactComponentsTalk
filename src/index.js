@@ -8,20 +8,20 @@ class Index extends React.Component {
   constructor() {
     super();
     this.state = {
-      name : "",
+      url : "",
       send: false
     }
-  this.sendName = this.sendName.bind(this);
-  this.getName = this.getName.bind(this);
+  this.sendUrl = this.sendUrl.bind(this);
+  this.getUrl = this.getUrl.bind(this);
 }
 
-   getName(event) {
+   getUrl(event) {
     this.setState({
-      name : event.target.value
+      url : event.target.value
     });
    }
 
-    sendName(event) {
+    sendUrl(event) {
       event.preventDefault();
     this.setState({
       send : true
@@ -30,10 +30,10 @@ class Index extends React.Component {
 
    render(){
      return(
-       <form onSubmit={this.sendName}>
-       <input onChange={this.getName} placeholder="what is your name ?"/>
+       <form onSubmit={this.sendUrl}>
+       <input onChange={this.getUrl} placeholder="Enter any Image URL"/>
        <input type="submit"/>
-       {this.state.send ? <App url={this.state.name}/> : null }
+       {this.state.send ? <App url={this.state.url}/> : null }
       </form>
      );
    }
