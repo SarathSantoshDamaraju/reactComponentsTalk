@@ -13,7 +13,7 @@ Req: **Child1** has an input field, on typing that value must be sent to **child
 
 First **define a Callback function** in Parent and **send it as props to Child1**
 
-```
+```js
 constructor(){
   super();
   this.state= {
@@ -31,7 +31,7 @@ formChild1(params) {
 I have set a state variable **data** and updating its value using the callback function from child **fromChild1** and sending the state value to **Child2**. 
 *Why using state ? Because props are Immutable and it is always better to pass state as props.*
 
-```
+```js
 render() {
   return(
     <div>
@@ -49,19 +49,19 @@ render() {
 
 install `prop-types` because **React.PropTypes** is deprecated and React suggests you to use `prop-types`
 
-```
+```js
 npm install prop-types
 ```
 
 Import prop-types in child1
 
-```
+```js
 import PropTypes from 'prop-types';
 ```
 
 define child component
 
-```
+```js
 class Child1 extends Component {
 
 getContent(event) {
@@ -83,7 +83,7 @@ this.props.callback(event.target.value);
 
 **Define prop-types for Child1** :
 
-```
+```js
 Child1.protoTypes = {
 callback : PropTypes.func,
 }
@@ -94,7 +94,7 @@ We have defined a function proptype for callback function.
 
 Define a simple component which renders `<p>` tag with prop value sent to it from parent.
 
-```
+```js
 class Child2 extends Component {
 
 render() {
