@@ -106,8 +106,8 @@ render() {
 }
 ```
 
-That's it. We have Now established the communication channel between sibling to sibling. 
-**And don't forget to import the components if you have separate files for parent, child1 and child2. For reference see the code in `/src/`**
+That's it. We have Now established a communication channel between sibling to sibling. 
+**And don't forget to export the child components if you have separate files for parent, child1 and child2. For reference see the code in `/src/`**
 
 
 
