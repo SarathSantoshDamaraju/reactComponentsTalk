@@ -19,3 +19,18 @@ Types of Communication flows covered :
     - [ ] Context `branch : `
                 
 > Raise a PR if you want to correct or Suggest, Thanks
+
+
+----------------
+
+# To Run
+
+Clone or Download the repo, goto the root folder and type
+
+```npm install```
+
+and after installation type
+
+```npm start```
+
+open `http://localhost:3000`
