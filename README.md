@@ -18,4 +18,4 @@ Types of Communication flows covered :
     - [ ] Global Variables `branch : `
     - [ ] Context `branch : `
                 
-> if any communication pattern is missed kindly raise a Pull Request 
+> Raise a PR if you want to correct or Suggest, Thanks
