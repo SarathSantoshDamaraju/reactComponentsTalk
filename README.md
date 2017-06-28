@@ -1,6 +1,6 @@
 # Siblings Communication in React
 
-Let's discuss the Requirement, My app has a child component which has to communicate with its sibling component. So it must happen through Parent with Callback method from parent to one child which will be passed to other child as props. Simple, isnt it?
+Let's discuss the Requirement, My app has a child component which has to communicate with its sibling component. So it must happen through Parent with a Callback method from parent to one child which will get the value from child1 and will pass it  to the other child as props. Simple, isnt it?
 
 # Data Flow
 
