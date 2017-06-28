@@ -1,21 +1,32 @@
-# Component Communication in ReactJs
-There are 8 types of communication in ReactJs with use of plain JS or simple React Concepts. In this document you can find the sample code for all of this types of communication.
+# Siblings Communication in React
 
-Types of Communication flows covered : 
+Let's discuss the Requirement, My app has a child component which has to communicate with its sibling component. So it must happen through Parent with Callback method from parent to one child which will be passed to other child as props. Simple, isnt it?
 
-- [x] Parent to Child
-    - [x] Props `branch : parentToChild__props`
-    - [x] Instance methods `branch : parentToChild__instanceMethods`
-       
-- [x] Child to parent
-    - [x] Call Back `branch : childToParent__Callback`
-    - [x] Event Bubbling `branch : childToParent__eventBubbling`
-       
-- [ ] Sibling to sibling  (Via parent Component) `branch : `
-       
-- [ ] Any to Any
-    - [ ] Observer Patterns `branch : `
-    - [ ] Global Variables `branch : `
-    - [ ] Context `branch : `
-                
-> if any communication pattern is missed kindly raise a Pull Request 
+# Data Flow
+
+
+
+# Flow
+Req: **Child1** has an input field, on typing that value must be sent to **child** component via **Parent**
+
+## Parent Component
+
+First **define a Callback function** in Parent and **send it as props to Child1**
+
+```constructor(){
+  super();
+  this.state= {
+    data : ""
+  }
+}
+
+formChild1(params) {
+  this.setState({
+    data : params
+  })
+}
+
+```
+
+
+
