@@ -11,7 +11,7 @@ Types of Communication flows covered :
     - [x] Call Back `branch : childToParent__Callback`
     - [x] Event Bubbling `branch : childToParent__eventBubbling`
        
-- [ ] Sibling to sibling  (Via parent Component) `branch : `
+- [x] Sibling to sibling  (Via parent Component) `branch : siblingToSibling`
        
 - [ ] Any to Any
     - [ ] Observer Patterns `branch : `
