@@ -4,7 +4,7 @@ Let's discuss the Requirement, My app has a child component which has to communi
 
 # Data Flow
 
-
+![flow](https://user-images.githubusercontent.com/10527102/27639498-01ce3946-5c34-11e7-99d7-5c639645ae8a.png)
 
 # Flow
 Req: **Child1** has an input field, on typing that value must be sent to **child** component via **Parent**
